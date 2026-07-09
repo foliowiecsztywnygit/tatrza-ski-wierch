@@ -1,13 +1,14 @@
 import { useState, useEffect } from 'react';
+import { MessageCircle, Phone } from 'lucide-react';
 import { propertyInfo } from '../../content/data';
 
 export function MobileStickyCTA() {
   const [isVisible, setIsVisible] = useState(false);
+  const smsHref = `sms:${propertyInfo.phoneHref}`;
 
   useEffect(() => {
     const handleScroll = () => {
-      // Show after scrolling past hero section (approx 500px)
-      setIsVisible(window.scrollY > 500);
+      setIsVisible(window.scrollY > 180);
     };
 
     window.addEventListener('scroll', handleScroll);
@@ -17,12 +18,24 @@ export function MobileStickyCTA() {
   if (!isVisible) return null;
 
   return (
-    <div className="md:hidden fixed bottom-0 left-0 right-0 z-40 bg-white/85 backdrop-blur-md border-t border-brand-brown/10 p-4 pb-safe">
+    <div className="md:hidden fixed bottom-4 right-4 z-40 flex flex-col items-end gap-3">
       <a
         href={`tel:${propertyInfo.phoneHref}`}
-        className="block w-full bg-brand-brown hover:bg-brand-brown-dark text-white text-center font-semibold py-4 rounded-xl shadow-lg transition-colors"
+        className="inline-flex items-center gap-3 rounded-full bg-brand-brown text-white shadow-[0_14px_35px_rgba(0,0,0,0.22)] px-4 py-3 transition-colors hover:bg-brand-brown-dark"
       >
-        Zadzwoń: {propertyInfo.phoneDisplay}
+        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-white/12">
+          <Phone className="h-5 w-5" />
+        </span>
+        <span className="pr-1 text-sm font-ui uppercase tracking-wider">Telefon</span>
+      </a>
+      <a
+        href={smsHref}
+        className="inline-flex items-center gap-3 rounded-full border border-brand-brown/15 bg-white/95 text-brand-brown shadow-[0_14px_35px_rgba(0,0,0,0.14)] px-4 py-3 transition-colors hover:bg-white"
+      >
+        <span className="flex h-10 w-10 items-center justify-center rounded-full bg-accent-yellow/25">
+          <MessageCircle className="h-5 w-5" />
+        </span>
+        <span className="pr-1 text-sm font-ui uppercase tracking-wider">SMS</span>
       </a>
     </div>
   );
