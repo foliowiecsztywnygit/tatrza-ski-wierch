@@ -134,7 +134,7 @@ export const optimizedPhotos = [
   {
     id: 'apartament-4',
     src: '/zdjecia/Pokoj 5/f0aed80c-8a30-47f2-8b99-33d6ab11c1e3.avif',
-    alt: 'Apartament 4- lub 5-osobowy z widokiem na góry',
+    alt: 'Apartament 4-osobowy z widokiem na góry',
     category: 'pokoje',
   },
   {

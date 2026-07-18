@@ -8,9 +8,10 @@ export const propertyInfo = {
   fullAddress: 'ul. Szlak Papieski 343, 34-424 Bańska Wyżna',
   phoneDisplay: '608 492 105',
   phoneHref: '+48608492105',
+  email: 'annabukowska968@gmail.com',
   beds: 'widok na Tatry',
-  roomsCount: '4 pokoje i 2 apartamenty',
-  openLabel: 'aneks, parking i plac zabaw',
+  roomsCount: '5 pokoi i apartamentów',
+  openLabel: 'aneks i parking',
   ratingLabel: '5,0/5',
   reviewsLabel: '14 opinii w Google',
   locationLabel: 'Bańska Wyżna',
@@ -29,7 +30,7 @@ export const advantages = [
   {
     id: 'rooms',
     title: 'Pokoje i apartamenty',
-    description: 'Do dyspozycji gości są kameralne pokoje 2-osobowe oraz rodzinne apartamenty dla 4 i 5 osób.',
+    description: 'Do dyspozycji gości są kameralne pokoje 2-osobowe, przestronny pokój 5-osobowy oraz rodzinny apartament dla 4 osób.',
     icon: 'BedDouble',
   },
   {
@@ -40,19 +41,19 @@ export const advantages = [
   },
   {
     id: 'family',
-    title: 'Parking, grill i plac zabaw',
-    description: 'Bezpłatny parking, miejsce do grillowania i atrakcje dla dzieci sprawiają, że łatwo tu odpocząć całą rodziną.',
+    title: 'Parking i miejsce na grill',
+    description: 'Bezpłatny parking i miejsce do grillowania sprawiają, że łatwo tu odpocząć całą rodziną.',
     icon: 'Sparkles',
   },
 ];
 
 export const rooms = [
   {
-    id: 'pokoj-2-osobowy-balkon',
-    name: 'Pokój 2-osobowy z balkonem',
-    description: 'Pokój dwuosobowy z prywatną łazienką i balkonem, idealny na spokojny pobyt z widokiem na góry.',
-    capacity: '2 osoby',
-    amenities: ['Prywatna łazienka', 'Balkon', 'Łóżko podwójne', 'Telewizor', 'Lodówka', 'Pościel'],
+    id: 'pokoj-5-osobowy',
+    name: 'Pokój 5-osobowy',
+    description: 'Pokój pięcioosobowy z prywatną łazienką, idealny na spokojny pobyt z widokiem na góry.',
+    capacity: '5 osób',
+    amenities: ['Prywatna łazienka', 'Łóżko podwójne', 'Łóżka pojedyncze', 'Telewizor', 'Lodówka', 'Pościel'],
     board: 'Cena ustalana indywidualnie - zadzwoń po aktualną ofertę i dostępność.',
     price: 'Rezerwacja telefoniczna',
     image: '/zdjecia/Pokoj 1/7785c6d5-e256-4e85-b331-37c54cde0991.avif',
@@ -96,17 +97,6 @@ export const rooms = [
     board: 'Świetny wybór dla rodziny lub dłuższego pobytu w kameralnym obiekcie.',
     price: 'Dostępność na telefon',
     image: '/zdjecia/Pokoj 5/80492392-021f-4686-b112-592f8493383d.avif',
-  },
-  {
-    id: 'apartament-5-osobowy',
-    name: 'Apartament 5-osobowy',
-    description: 'Dwupokojowy apartament rodzinny z łazienką i widokiem na góry, przygotowany dla większej rodziny lub grupy przyjaciół.',
-    capacity: '5 osób',
-    amenities: ['Widok na góry', 'Prywatna łazienka', 'Łóżko podwójne', 'Łóżka pojedyncze', 'Telewizor', 'Lodówka'],
-    board: 'Na życzenie można przygotować łóżeczko dla niemowlęcia.',
-    price: 'Skontaktuj się po szczegóły',
-    note: 'Najlepiej zadzwonić, aby dobrać apartament do liczby gości i terminu.',
-    image: '/zdjecia/Pokoj 5/8676aeae-4125-4074-97a0-c1a0e67b57e1.avif',
   },
 ];
 
@@ -162,11 +152,11 @@ export const faqData = [
   },
   {
     question: 'Jakie pokoje są dostępne?',
-    answer: 'Do dyspozycji gości są cztery pokoje 2-osobowe oraz dwa apartamenty rodzinne: 4-osobowy i 5-osobowy.',
+    answer: 'Do dyspozycji gości są pokoje 2-osobowe, pokój 5-osobowy oraz rodzinny apartament 4-osobowy.',
   },
   {
     question: 'Jakie udogodnienia znajdę na miejscu?',
-    answer: 'Goście mają dostęp do prywatnych łazienek, telewizorów, lodówek, aneksu kuchennego, bezpłatnego parkingu, miejsca do grillowania i placu zabaw.',
+    answer: 'Goście mają dostęp do prywatnych łazienek, telewizorów, lodówek, aneksu kuchennego, bezpłatnego parkingu oraz miejsca do grillowania.',
   },
   {
     question: 'Czy wszystkie pokoje mają balkon i widok na Tatry?',
@@ -178,7 +168,7 @@ export const faqData = [
   },
   {
     question: 'Czy to dobre miejsce dla rodzin z dziećmi?',
-    answer: 'Tak. Na terenie obiektu są plac zabaw, trampolina, huśtawka, piaskownica oraz bezpieczna przestrzeń do spędzania czasu na świeżym powietrzu.',
+    answer: 'Tak. Zapewniamy spokojną atmosferę i bezpieczną przestrzeń do spędzania czasu na świeżym powietrzu, a na życzenie udostępniamy łóżeczko dla niemowlęcia.',
   },
   {
     question: 'Jak sprawdzić cenę i dostępność?',

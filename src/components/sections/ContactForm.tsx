@@ -4,7 +4,7 @@ import { Section } from '../ui/Section';
 import { Button } from '../ui/Button';
 import { FadeIn } from '../ui/FadeIn';
 import { Parzenica } from '../ui/Icons';
-import { MapPin, Phone } from 'lucide-react';
+import { MapPin, Phone, Mail } from 'lucide-react';
 import { propertyInfo } from '../../content/data';
 
 interface ContactFormData {
@@ -93,6 +93,21 @@ export function ContactForm() {
                     <div className="text-xs text-foreground-body/70">Najlepszy sposób na szybkie potwierdzenie rezerwacji</div>
                   </div>
                 </a>
+
+                {propertyInfo.email && (
+                  <a
+                    href={`mailto:${propertyInfo.email}`}
+                    className="flex items-center gap-3 rounded-2xl border border-brand-brown/10 bg-background hover:bg-brand-brown/[0.03] transition-colors px-5 py-4"
+                  >
+                    <div className="w-10 h-10 rounded-full bg-background-card border border-brand-brown/10 flex items-center justify-center">
+                      <Mail className="w-5 h-5 text-brand-brown" />
+                    </div>
+                    <div>
+                      <div className="text-sm font-ui tracking-wide text-foreground-heading">{propertyInfo.email}</div>
+                      <div className="text-xs text-foreground-body/70">Napisz do nas wiadomość</div>
+                    </div>
+                  </a>
+                )}
 
                 <a
                   href={propertyInfo.mapsSearchUrl}

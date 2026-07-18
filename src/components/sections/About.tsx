@@ -21,7 +21,7 @@ export function About() {
               </h3>
               <div className="prose prose-lg text-foreground-body font-body leading-relaxed max-w-none mb-10">
                 <p className="mb-4">
-                  {propertyInfo.name} to klimatyczny pensjonat położony w Bańskiej Wyżnej, w miejscu stworzonym dla osób,
+                  {propertyInfo.name} to klimatyczna agroturystyka położona w Bańskiej Wyżnej, w miejscu stworzonym dla osób,
                   które szukają ciszy, przestrzeni i bliskości natury.
                 </p>
                 <p className="mb-4">

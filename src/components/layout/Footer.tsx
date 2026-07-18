@@ -10,7 +10,7 @@ export function Footer() {
         <div>
           <h3 className="font-heading text-2xl text-white mb-6">NASZE ATUTY</h3>
           <ul className="space-y-4">
-            {['Widok na Tatry i spokojna lokalizacja', 'Pokoje 2-osobowe oraz apartamenty rodzinne', 'Aneks kuchenny, lodówki i prywatne łazienki', 'Parking, grill i plac zabaw dla dzieci'].map((item, idx) => (
+            {['Widok na Tatry i spokojna lokalizacja', 'Pokoje i apartamenty rodzinne', 'Aneks kuchenny, lodówki i prywatne łazienki', 'Parking i miejsce do grillowania'].map((item, idx) => (
               <li key={idx} className="flex items-start gap-3 text-white/90 font-body">
                 <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor" className="text-accent-yellow shrink-0 mt-1.5">
                   <path d="M12 2L22 20H2L12 2Z" />
@@ -30,7 +30,10 @@ export function Footer() {
             <p>{propertyInfo.addressLine}</p>
             <p>{propertyInfo.cityLine}</p>
             <a href={`tel:${propertyInfo.phoneHref}`} className="block mt-4 hover:text-accent-yellow transition-colors">{propertyInfo.phoneDisplay}</a>
-            <p>Spacer 360 i szybka rezerwacja</p>
+            {propertyInfo.email && (
+              <a href={`mailto:${propertyInfo.email}`} className="block hover:text-accent-yellow transition-colors">{propertyInfo.email}</a>
+            )}
+            <p className="mt-4">Spacer 360 i szybka rezerwacja</p>
           </div>
         </div>
 

@@ -19,7 +19,7 @@ export default function Home() {
         <title>{propertyInfo.name} | Noclegi w Bańskiej Wyżnej z widokiem na Tatry</title>
         <meta 
           name="description" 
-          content="Tatrzański Wierch w Bańskiej Wyżnej oferuje kameralne pokoje i apartamenty, widok na Tatry, aneks kuchenny, parking, plac zabaw i spacer 360 obiektu." 
+          content="Tatrzański Wierch w Bańskiej Wyżnej oferuje kameralne pokoje i apartamenty, widok na Tatry, aneks kuchenny, parking i spacer 360 obiektu." 
         />
       </Helmet>
 

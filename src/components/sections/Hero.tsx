@@ -58,8 +58,8 @@ export function Hero() {
             Wierch
           </h1>
           <p className="mt-4 md:mt-6 max-w-3xl mx-auto px-2 sm:px-0 text-white/90 font-body text-sm sm:text-base md:text-lg leading-relaxed">
-            Kameralny pensjonat w Bańskiej Wyżnej z widokiem na Tatry, pokojami i apartamentami z łazienkami,
-            aneksem kuchennym, placem zabaw oraz spokojną bazą wypadową na Podhale.
+            Kameralna agroturystyka w Bańskiej Wyżnej z widokiem na Tatry, pokojami i apartamentami z łazienkami,
+            aneksem kuchennym oraz spokojną bazą wypadową na Podhale.
           </p>
           <div className="mt-6 md:mt-8 flex flex-col sm:flex-row items-center justify-center gap-3 md:gap-4">
             <a href={`tel:${propertyInfo.phoneHref}`} className="hidden sm:block">
