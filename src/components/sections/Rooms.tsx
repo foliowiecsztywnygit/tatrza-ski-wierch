@@ -57,9 +57,9 @@ export function Rooms() {
                     ))}
                   </div>
 
-                  {room.note && (
+                  {'note' in room && room.note && (
                     <div className="mb-6 rounded-2xl border border-accent-yellow/40 bg-accent-yellow/15 px-4 py-3 text-sm text-foreground-body">
-                      {room.note}
+                      {room.note as React.ReactNode}
                     </div>
                   )}
 

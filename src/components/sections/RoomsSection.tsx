@@ -20,8 +20,8 @@ export function RoomsSection() {
               </h3>
               <div className="prose prose-lg text-foreground-body font-body leading-relaxed max-w-none mb-10">
                 <p>
-                  W ofercie Tatrzańskiego Wierchu znajdują się cztery pokoje 2-osobowe oraz dwa apartamenty
-                  przygotowane z myślą o rodzinach i gościach, którzy chcą mieć więcej przestrzeni.
+                  W ofercie Tatrzańskiego Wierchu znajdują się cztery pokoje 2-osobowe, pokój 5-osobowy oraz apartament
+                  przygotowany z myślą o rodzinach i gościach, którzy chcą mieć więcej przestrzeni.
                 </p>
                 <p className="mb-0">
                   Każda opcja zakwaterowania zapewnia wygodny standard pobytu, a wybrane pokoje mają balkon i widok
