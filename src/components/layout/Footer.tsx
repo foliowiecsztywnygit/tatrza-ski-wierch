@@ -50,8 +50,16 @@ export function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10 text-center font-ui text-white/50 text-xs tracking-widest uppercase">
+      <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10 flex flex-col items-center gap-3 font-ui text-white/50 text-[10px] sm:text-xs tracking-widest uppercase">
         <p>&copy; {new Date().getFullYear()} TATRZAŃSKI WIERCH. WSZELKIE PRAWA ZASTRZEŻONE.</p>
+        <a 
+          href="https://www.webbroskidev.pl" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="hover:text-accent-yellow transition-colors opacity-60 hover:opacity-100"
+        >
+          Projekt i Hosting: Krzysztof Żebrowski
+        </a>
       </div>
     </footer>
   );
