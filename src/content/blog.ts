@@ -301,5 +301,139 @@ export const blogPosts = [
     date: '2026-06-07',
     image: '/zdjecia/Pokoj 1/7b5c034f-9152-40b3-8c93-6b3a50ee027f.avif',
     keywords: ['zima w Zakopanem bez nart', 'zimowe atrakcje Tatry', 'gdzie na ferie w góry', 'kulig Zakopane', 'gorące źródła Podhale']
+  },
+  {
+    id: '7',
+    slug: 'noclegi-banska-wyzna-idealna-baza-wypadowa-termy',
+    title: 'Noclegi w Bańskiej Wyżnej: idealna baza wypadowa na Termy Podhalańskie',
+    metaTitle: 'Noclegi Bańska Wyżna blisko term: Szaflary, Gorący Potok',
+    metaDescription: 'Idealna baza wypadowa na Termy Podhalańskie. Uniknij korków na Zakopiance i ciesz się ciszą. Noclegi blisko Term Szaflary i Gorącego Potoku.',
+    excerpt: 'Planujesz relaks w basenach termalnych? Bańska Wyżna to strzał w dziesiątkę. Blisko Term Szaflary i Gorącego Potoku, z dala od zgiełku miasta.',
+    content: `
+<p>Planujesz urlop na Podhalu i marzysz o głębokim relaksie w basenach termalnych z widokiem na ośnieżone szczyty? Wybór odpowiedniego miejsca noclegowego to klucz do udanego wypoczynku. Zamiast pchać się do zatłoczonych kurortów, warto postawić na lokalizację, która łączy w sobie bliskość największych atrakcji regionu z upragnioną ciszą. <strong>Bańska Wyżna</strong> to strzał w dziesiątkę dla miłośników gorących źródeł!</p>
+
+<h2>Bańska Wyżna – cisza, spokój i genialna lokalizacja</h2>
+<p>Bańska Wyżna to jedna z najwyżej położonych i najbardziej urokliwych miejscowości na Podhalu. Jej unikalne położenie sprawia, że jest to absolutnie perfekcyjna baza wypadowa. Z jednej strony uciekasz od miejskiego zgiełku, wszechobecnych straganów i hałasu, z drugiej – masz na wyciągnięcie ręki najważniejsze węzły komunikacyjne.</p>
+
+<p>Dlaczego turyści coraz chętniej wpisują w wyszukiwarkę hasło <em>"noclegi Bańska Wyżna"</em>?</p>
+<ul>
+  <li><strong>Odpoczynek od tłumów:</strong> Po intensywnym dniu pełnym wrażeń wracasz do miejsca, gdzie rano budzi Cię śpiew ptaków, a nie ryk silników.</li>
+  <li><strong>Czyste powietrze:</strong> Ze względu na wysokie położenie, miejscowość rzadko boryka się z problemem smogu, który potrafi doskwierać w kotlinach.</li>
+  <li><strong>Strategiczny punkt:</strong> Jesteś w połowie drogi między Nowym Targiem a Zakopanem, co daje ogromną elastyczność w planowaniu wycieczek.</li>
+</ul>
+
+<h2>Termy Szaflary i Gorący Potok zaledwie kilka minut drogi stąd!</h2>
+<p>Największym magnesem przyciągającym gości w nasze strony są bez wątpienia baseny termalne. Wybierając nocleg w Bańskiej Wyżnej, mieszkasz dosłownie "za miedzą" od najpopularniejszych kompleksów na Podhalu.</p>
+
+<p><strong>Termy Szaflary</strong> oraz <strong>Termy Gorący Potok</strong> znajdują się zaledwie 5-7 minut jazdy samochodem od naszej agroturystyki! Co to oznacza w praktyce?</p>
+<ul>
+  <li>Nie tracisz cennego czasu urlopu na stanie w kilometrowych korkach na Zakopiance.</li>
+  <li>Możesz wyskoczyć na wieczorny, relaksujący seans w gorącej, siarkowej wodzie po całym dniu jazdy na nartach czy chodzenia po górach.</li>
+  <li>Gorąca woda termalna doskonale regeneruje mięśnie, redukuje stres i poprawia samopoczucie.</li>
+</ul>
+
+<h3>Jak zaplanować termalny dzień?</h3>
+<p>Rano zjedz pożywne, góralskie śniadanie, wybierz się na krótki spacer pobliskim Szlakiem Papieskim, a popołudnie zarezerwuj na lecznicze kąpiele. W Gorącym Potoku czekają na Ciebie naturalne baseny z surową, siarkową wodą, natomiast Termy Szaflary zachwycą rodziny z dziećmi dzięki licznym zjeżdżalniom i strefom rekreacyjnym.</p>
+
+<h2>Tatrzański Wierch – komfortowy odpoczynek po dniu w gorących źródłach</h2>
+<p>Gdy już wygrzejesz się w podhalańskich wodach termalnych, zapraszamy Cię do naszej agroturystyki <strong>Tatrzański Wierch</strong>, zlokalizowanej pod adresem <strong>Szlak Papieski 343 (34-424 Bańska Wyżna)</strong>. To miejsce stworzone z myślą o gościach ceniących kameralną atmosferę i góralską gościnność.</p>
+
+<p>Nasze pokoje i apartamenty zostały zaprojektowane tak, by zapewnić Ci maksymalny komfort. Oferujemy wygodne łóżka, w pełni wyposażone aneksy kuchenne (w apartamentach) i przede wszystkim – zapierający dech w piersiach widok na panoramę Tatr, który możesz podziwiać prosto z okna z kubkiem gorącej herbaty w dłoni.</p>
+
+<p><strong>Gotowy na termalny relaks na Podhalu?</strong><br/>
+Nie przepłacaj na portalach rezerwacyjnych! Rezerwując pobyt bezpośrednio na naszej oficjalnej stronie internetowej, masz gwarancję <strong>najniższej ceny bez ukrytych prowizji</strong>.</p>
+
+<p>👉 <strong><a href="/pokoje" class="text-accent-yellow font-bold hover:underline">Zarezerwuj swój pobyt w Tatrzańskim Wierchu już teraz – najtaniej na naszej stronie!</a></strong></p>
+`.trim(),
+    category: 'noclegi',
+    date: '2026-07-18',
+    image: '/zdjecia/widok_z_obiektem.avif',
+    keywords: ['noclegi Bańska Wyżna', 'termy szaflary', 'gorący potok', 'noclegi blisko term', 'rezerwacja bezpośrednia']
+  },
+  {
+    id: '8',
+    slug: 'szlak-papieski-w-banskiej-wyznej',
+    title: 'Szlak Papieski w Bańskiej Wyżnej – co warto zobaczyć w okolicy?',
+    metaTitle: 'Szlak Papieski Bańska Wyżna: trasa rowerowa i widoki na Tatry',
+    metaDescription: 'Odkryj Szlak Papieski przebiegający przez Bańską Wyżną. Idealna trasa rowerowa i spacerowa z niezakłóconym widokiem na panoramę Tatr.',
+    excerpt: 'Prawdziwe piękno Podhala poza zatłoczonymi Krupówkami. Poznaj urokliwą trasę Szlaku Papieskiego: idealną na rower, nordic walking czy spacer z wózkiem.',
+    content: `
+<p>Podhale to nie tylko zatłoczone Krupówki czy Gubałówka. Prawdziwe piękno polskich gór ukryte jest często tam, gdzie nie docierają masowe wycieczki autokarowe. Jeśli szukasz miejsca, które pozwoli Ci aktywnie spędzić czas, naładować baterie i nacieszyć oczy spektakularnymi widokami, <strong>Bańska Wyżna i przebiegający przez nią Szlak Papieski</strong> to kierunek stworzony dla Ciebie.</p>
+
+<h2>Historia i piękno Szlaku Papieskiego na Podhalu</h2>
+<p>Szlak Papieski to trasa o wyjątkowym znaczeniu historycznym, kulturowym i krajobrazowym. Wytyczono ją na pamiątkę przejazdu Ojca Świętego Jana Pawła II w 1997 roku, kiedy to z Ludźmierza, przez Krauszów, Rogoźnik, Ząb, aż do Zakopanego, witały Go tłumy górali.</p>
+
+<p>Odcinek przebiegający przez Bańską Wyżną to prawdziwa perełka tej trasy. Droga wije się grzbietami wzgórz, oferując wędrowcom:</p>
+<ul>
+  <li>Rozległą, niczym niezakłóconą <strong>panoramę całych Tatr</strong> (od Bielskich, przez Wysokie, aż po Zachodnie).</li>
+  <li>Widok na majestatyczną Babią Górę oraz Gorce z drugiej strony.</li>
+  <li>Spokój i możliwość obcowania z podhalańską przyrodą w jej najczystszym wydaniu.</li>
+</ul>
+
+<p>To idealne miejsce na wyciszenie, refleksję i ucieczkę od pędzącego świata.</p>
+
+<h2>Rowerem lub pieszo – aktywne popołudnia w Bańskiej Wyżnej</h2>
+<p>Szlak Papieski to nie lada gratka dla miłośników aktywnego wypoczynku. Nawierzchnia i profil trasy sprawiają, że jest to miejsce uniwersalne, dostępne dla każdego, niezależnie od wieku czy kondycji.</p>
+
+<p><strong>Jak możesz wykorzystać ten teren?</strong></p>
+<ul>
+  <li><strong>Wycieczki rowerowe:</strong> Asfaltowe i szutrowe odcinki szlaku to wymarzony teren dla kolarzy szosowych i miłośników e-bike'ów. Trasa łączy okoliczne miejscowości, oferując kilkadziesiąt kilometrów malowniczych ścieżek z widokiem na góry.</li>
+  <li><strong>Nordic Walking i spacery z wózkiem:</strong> Brak stromych i niebezpiecznych podejść znanych z wysokich partii Tatr sprawia, że jest to idealne miejsce na rodzinne spacery. Bez problemu pokonasz tę trasę z kijkami do Nordic Walking lub prowadząc wózek dziecięcy.</li>
+  <li><strong>Poranny jogging:</strong> Wyobraź sobie poranny bieg, podczas którego słońce powoli oświetla ośnieżone szczyty Tatr. To doświadczenie, którego nie zapomnisz!</li>
+</ul>
+
+<h2>Nocleg przy Szlaku Papieskim – wybierz Tatrzański Wierch</h2>
+<p>Chcesz mieć te wszystkie atrakcje dosłownie na wyciągnięcie ręki? Wybierz nocleg w sercu tych malowniczych terenów. Agroturystyka <strong>Tatrzański Wierch</strong> mieści się dokładnie pod adresem <strong>Szlak Papieski 343, 34-424 Bańska Wyżna</strong>. Wychodząc z naszego obiektu, znajdujesz się od razu na najpiękniejszej trasie widokowej Podhala!</p>
+
+<p>Oferujemy przytulne, nowoczesne pokoje z góralską duszą, bezpłatny parking i szybkie Wi-Fi. Po dniu pełnym rowerowych czy pieszych wycieczek, możesz zrelaksować się w naszym obiekcie, ciesząc się ciszą, jakiej próżno szukać w centrum Zakopanego. Jesteśmy również świetną bazą wypadową na pobliskie termy, by zregenerować mięśnie po wysiłku.</p>
+
+<p><strong>Zacznij planować swój aktywny wypoczynek!</strong><br/>
+Pamiętaj, że portale rezerwacyjne doliczają do cen noclegów wysokie prowizje. Chcesz zapłacić mniej za ten sam standard?</p>
+
+<p>👉 <strong><a href="/pokoje" class="text-accent-yellow font-bold hover:underline">Sprawdź dostępność i zarezerwuj nocleg najtaniej na oficjalnej stronie Tatrzańskiego Wierchu!</a></strong></p>
+`.trim(),
+    category: 'szlaki',
+    date: '2026-07-18',
+    image: '/zdjecia/widok_z_obiektem_2.avif',
+    keywords: ['Szlak Papieski', 'Bańska Wyżna', 'rowerem po Podhalu', 'nordic walking Tatry', 'aktywny wypoczynek w górach']
+  },
+  {
+    id: '9',
+    slug: 'dlaczego-warto-wybrac-nocleg-poza-zakopanem',
+    title: 'Dlaczego warto wybrać nocleg poza Zakopanem? Zalety Bańskiej Wyżnej',
+    metaTitle: 'Nocleg poza Zakopanem: omiń korki i ciesz się górami',
+    metaDescription: 'Uniknij korków na Zakopiance i zgiełku na Krupówkach. Poznaj zalety noclegu w Bańskiej Wyżnej: piękna panorama Tatr i oszczędności.',
+    excerpt: 'Masz dość stania w korkach na Zakopiance? Odkryj zalety wypoczynku w Bańskiej Wyżnej: przepiękne widoki, bezproblemowy dojazd i wyższy standard w niższej cenie.',
+    content: `
+<p>Zakopane to bezsprzecznie zimowa stolica Polski, pełna atrakcji, restauracji i folkloru. Jednak z roku na rok coraz więcej turystów szuka alternatywy. Tłumy na Krupówkach, brak miejsc parkingowych i legendarne już korki sprawiają, że wypoczynek potrafi zamienić się w stresujące doświadczenie. Rozwiązanie? <strong>Nocleg w Bańskiej Wyżnej!</strong> Poznaj powody, dla których warto zatrzymać się u nas i cieszyć się Podhalem na własnych zasadach.</p>
+
+<h2>Koniec z korkami na Zakopiance – łatwy dojazd do Bańskiej Wyżnej</h2>
+<p>Zacznijmy od największej zmory turystów – dojazdu. Podróż do samego Zakopanego w sezonie potrafi trwać godzinami. Wybierając Bańską Wyżną, zyskujesz niesamowitą przewagę komunikacyjną.</p>
+
+<ul>
+  <li><strong>Szybki zjazd z Zakopianki:</strong> Omijasz najwęższe gardła i korki tworzące się na wjeździe do zimowej stolicy. Zjeżdżasz z głównej trasy znacznie wcześniej, by po kilku minutach cieszyć się spokojem w naszym obiekcie.</li>
+  <li><strong>Mobilność:</strong> Chcesz pojechać w Pieniny, na Słowację, czy nad Jezioro Czorsztyńskie? Z Bańskiej Wyżnej masz doskonały punkt startowy we wszystkich tych kierunkach, bez konieczności przeciskania się przez zakopiańskie ulice.</li>
+  <li><strong>Bliskość Term:</strong> Jak wspominaliśmy wcześniej, Termy Szaflary i Gorący Potok są stąd oddalone o zaledwie kilka minut drogi samochodem!</li>
+</ul>
+
+<h2>Widoki, których pozazdrości Ci każdy (panorama Tatr z góry)</h2>
+<p>Jednym z największych paradoksów Zakopanego jest to, że przebywając w centrum miasta, same Tatry są często zasłonięte przez budynki, lasy lub wzgórza (jak Gubałówka). Aby zobaczyć pełną panoramę, musisz wyjechać wyżej.</p>
+
+<p>Bańska Wyżna rozwiązuje ten problem za Ciebie. Jako jedna z najwyżej położonych miejscowości w Polsce, oferuje <strong>panoramiczny, niezakłócony niczym widok na całe pasmo Tatr</strong>. Poranna kawa na balkonie z widokiem na Giewont i Kasprowy Wierch, bez konieczności wychodzenia z domu? U nas to standard. To widoki, które robią potężne wrażenie o każdej porze roku i stanowią idealne tło do pamiątkowych zdjęć.</p>
+
+<h2>Pokoje w Tatrzańskim Wierchu – góralska gościnność bez przepłacania</h2>
+<p>Decydując się na nocleg poza Zakopanem, zyskujesz nie tylko czas i spokój, ale również realne oszczędności. Ceny w mniejszych miejscowościach są znacznie bardziej przystępne, a standard usług nierzadko przewyższa to, co oferują zatłoczone pensjonaty w centrum.</p>
+
+<p>Agroturystyka <strong>Tatrzański Wierch (Szlak Papieski 343, Bańska Wyżna)</strong> to idealny przykład takiego miejsca. Łączymy w nim tradycyjny, góralski charakter z nowoczesnymi udogodnieniami. Naszym gościom oddajemy do dyspozycji czyste, przestronne pokoje, dostęp do aneksów kuchennych oraz miejsce na bezpieczne zaparkowanie samochodu. U nas nie jesteś tylko kolejnym numerkiem w rezerwacji – dbamy o kameralną, domową atmosferę, byś czuł się tu jak u siebie.</p>
+
+<p><strong>Spędź urlop mądrze – uniknij korków i ciesz się górami!</strong><br/>
+Najlepsze oferty znikają szybko. Chcesz mieć pewność, że rezerwujesz pobyt w najniższej możliwej cenie? Omiń pośredników i portale prowizyjne!</p>
+
+<p>👉 <strong><a href="/pokoje" class="text-accent-yellow font-bold hover:underline">Kliknij tutaj, aby dokonać rezerwacji bezpośredniej na naszej stronie – gwarancja najniższej ceny i natychmiastowe potwierdzenie!</a></strong></p>
+`.trim(),
+    category: 'noclegi',
+    date: '2026-07-18',
+    image: '/zdjecia/Pokoj 2/924780b6-f861-4c60-b70e-24ee6244a6a0.avif',
+    keywords: ['nocleg poza Zakopanem', 'tanie noclegi góry', 'agroturystyka Tatry', 'Bańska Wyżna noclegi', 'omijanie korków na Zakopiance']
   }
 ] satisfies BlogPost[];

@@ -22,6 +22,12 @@ export default function BlogPostPage() {
       <Helmet>
         <title>{post.metaTitle || post.title}</title>
         <meta name="description" content={post.metaDescription || post.excerpt} />
+        <link rel="canonical" href={`https://tatrzanskiwierch.pl/blog/${post.slug}`} />
+        <meta property="og:title" content={post.metaTitle || post.title} />
+        <meta property="og:description" content={post.metaDescription || post.excerpt} />
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content={`https://tatrzanskiwierch.pl/blog/${post.slug}`} />
+        <meta property="og:image" content={`https://tatrzanskiwierch.pl${post.image}`} />
         {/* Article Schema */}
         <script type="application/ld+json">
           {`
