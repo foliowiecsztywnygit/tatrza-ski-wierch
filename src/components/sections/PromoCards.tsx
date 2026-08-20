@@ -18,8 +18,8 @@ export function PromoCards() {
     {
       id: 3,
       label: 'Dla rodzin',
-      title: 'Plac zabaw i przestrzeń na zewnątrz',
-      description: 'Na dzieci czekają trampolina, huśtawka i piaskownica, a dorośli mogą odpocząć przy grillu i leżakach.',
+      title: 'Przestrzeń na zewnątrz',
+      description: 'Dorośli mogą zrelaksować się przy grillu i na leżakach, podziwiając widok na góry.',
     },
     {
       id: 4,
