@@ -1,4 +1,6 @@
 import { Helmet } from 'react-helmet-async';
+import ReactMarkdown from 'react-markdown';
+import rehypeRaw from 'rehype-raw';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { Section } from '../components/ui/Section';
 import { blogPosts, blogCategories } from '../content/blog';
@@ -70,7 +72,7 @@ export default function BlogPostPage() {
           <FadeIn delay={0.3}
             className="prose prose-lg max-w-none text-foreground-body font-body prose-headings:font-heading prose-headings:font-normal prose-headings:text-foreground-heading prose-headings:uppercase prose-a:text-brand-brown hover:prose-a:text-accent-yellow mb-16"
           >
-            <div dangerouslySetInnerHTML={{ __html: post.content }} />
+            <ReactMarkdown rehypePlugins={[rehypeRaw]}>{post.content}</ReactMarkdown>
           </FadeIn>
 
           {/* Related Posts */}
