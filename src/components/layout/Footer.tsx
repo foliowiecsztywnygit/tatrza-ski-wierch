@@ -53,7 +53,7 @@ export function Footer() {
       <div className="max-w-7xl mx-auto mt-12 pt-8 border-t border-white/10 flex flex-col items-center gap-3 font-ui text-white/50 text-[10px] sm:text-xs tracking-widest uppercase">
         <p>&copy; {new Date().getFullYear()} TATRZAŃSKI WIERCH. WSZELKIE PRAWA ZASTRZEŻONE.</p>
         <a 
-          href="https://www.webbroskidev.pl" 
+          href="https://brosystems.pl" 
           target="_blank" 
           rel="noopener noreferrer"
           className="hover:text-accent-yellow transition-colors opacity-60 hover:opacity-100"
